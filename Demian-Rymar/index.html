@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>VERTEXBUD</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row header__row d-flex justify-content-between align-items-center">
+                <div class="col-9 col-lg-3">
+                    <div class="header__logo">
+                        <a href="#"><img src="styles/img/logo_head.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-9 d-flex justify-content-end align-items-center">
+                    <nav class="main-nav">
+                        <ul class="nav-links">
+                            <li><a href="#foot">Контакти</a></li>
+                            <li><a href="#">Проєкти</a></li>
+                            <li><a href="#">Команда</a></li>
+                            <li><a href="#about">Про нас</a></li>
+                        </ul>
+                        <div class="burger">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <section class="home-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="home-page__title">
+                        <h2 class="title-section">
+                            VERTEXBUD
+                        </h2>
+
+                        <p>
+                            Повний спектр послуг по управлінню <br>
+                            будівництвом об’єктів будь-якої <br>
+                            складності.
+                        </p>
+
+                        <button class="btn">
+                            Побудувати <img src="styles/img/Arrow 3.svg" alt="">
+                        </button>
+
+                        <div class="line-for-btn"></div>
+
+                        <div class="svg"><img src="styles/img/Rectangle 7.svg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-8">
+                    <div class="home-page__title_photo">
+                        <div class="slide fade"></div>
+                        <div class="slide slide1 fade"></div>
+                        <div class="slide slide2 fade"></div>
+                        <div class="btn-switch d-flex ">
+                            <button id="back" onclick="plusSlides(-1)">
+                                <img src="styles/img/back.png" alt="">
+                            </button>
+
+                            <button id="next" onclick="plusSlides(1)">
+                                <img src="styles/img/next.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="col-12">
+                <div class="row about-bg d-flex justify-content-center">
+                    <div class="col-12 col-lg-5">
+                        <h2 class="title-section">
+                            ПРО НАС
+                        </h2>
+                    </div>
+
+                    <div class="col-12 col-lg-7">
+                        <div class="about__text d-flex">
+                            <p>
+                                <strong>Наші найцінніші ресурси</strong> - це наші люди, які <br> несуть наші цінності
+                                та
+                                нашу репутацію, бо <br>
+                                великі справи ніколи не робляться тілки <br> однією людиною.
+                            </p>
+
+                            <p>
+                                <strong>Головний принцип компанії</strong> : Виконуй таку <br> роботу, яка змушує наших
+                                клієнтів хотіти, <br>
+                                щоб ми робити їх наступний обєкт.
+                            </p>
+
+                            <div class="about__line-left"></div>
+                            <div class="about__line-right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row about-bg2">
+                <div class="col-12 col-lg-5 order-2 order-lg-1">
+                    <div class="about-bg2__img">
+                        <img src="styles/img/aboutimg.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7 order-1 order-lg-2">
+                    <div class="about-bg2__text2">
+                        <p>
+                            <span class="about-bg2__text2_strong-text">Вертексбуд - це сімейна будівельна компанія,
+                                заснована співласником з 35-річним
+                                будівельнйм
+                                досвідом.</span>
+                        </p>
+
+                        <p>
+                            Перший збудований обєкт Молодіжний жітловий комплекс був сданий в експлуатацію у 1986 році.
+                            Саме тоді й почалась будівельна історія, яка й легла в основу Вертексбуд.
+                        </p>
+
+                        <div class="about-bg2__line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="work-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="title-section">
+                        Етапи роботи
+                    </h1>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="work__item">
+                        <div class="work__item_id">
+                            01
+                        </div>
+
+                        <div class="work__item_text">
+                            <h3 class="work__item_text_title">
+                                ІДЕЯ
+                            </h3>
+
+                            <p>
+                                Аналізуємо ідею та можлиівсть <br> її втілення в проєкт
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="work__item">
+                        <div class="work__item_id">
+                            02
+                        </div>
+
+                        <div class="work__item_text">
+                            <div class="line-item-rifht"></div>
+                            <h3 class="work__item_text_title">
+                                ПЛАНУВАННЯ
+                            </h3>
+
+                            <p>
+                                Створюємо стратегію проєкту <br>
+                                з усіма побажаннями клієнта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="work__item">
+                        <div class="work__item_id">
+                            03
+                        </div>
+
+                        <div class="work__item_text">
+                            <h3 class="work__item_text_title">
+                                ДОКУМЕНТАЦІЯ
+                            </h3>
+
+                            <p>
+                                Готуємо технічні та юридичні <br> документи за вимогами клієнта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="work__item">
+                        <div class="work__item_id">
+                            04
+                        </div>
+
+                        <div class="work__item_text">
+                            <h3 class="work__item_text_title">
+                                ПІДГОТОВКА
+                            </h3>
+
+                            <p>
+                                Збираємо необхідні ресурси для <br> початку робіт згідно плану
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="work__item">
+                        <div class="item-id">
+                            <div class="work__item_id">
+                                05
+                            </div>
+
+                            <div class="line-item-left"></div>
+                        </div>
+
+                        <div class="work__item_text">
+                            <h3 class="work__item_text_title">
+                                БУДІВНИЦТВО
+                            </h3>
+
+                            <p>
+                                Основні роботи, контроль, <br> введення в експлуатацію
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="servis">
+        <div class="container">
+            <div class="services">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="title-section">
+                            Послуги
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center ">
+                    <div class="items-right">
+                        <div class="col-12 col-lg-4">
+                            <div class="servis__item">
+                                <div class="servis__item_title">
+                                    Генеральний будівельний підряд
+                                </div>
+
+                                <div class="servis__item_text">
+                                    Працюючи як генпідрядник, компанія бере на себе всю
+                                    відповідальність за своєчасне досягнення кінцевого результату, організовуючи
+                                    злагоджену
+                                    роботу будівельного майданчика і всіх задіяних на ній фахівців.
+                                </div>
+
+                                <button class="servis__item_btn">
+                                    Більше деталей<img src="styles/img/Arrow 4.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <div class="servis__img">
+                                <img src="styles/img/servis1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center ">
+                    <div class="items-left">
+                        <div class="col-12 col-lg-8">
+                            <div class="servis__img">
+                                <img src="styles/img/servis2.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-2">
+                            <div class="servis__item">
+                                <div class="servis__item_title">
+                                    Загальнобудівельні роботи
+                                </div>
+                                <div class="servis__item_text">
+                                    цілий комплекс будівельних робіт, різного характеру і
+                                    напрямки, в які входить зведення, будівництво і реконструкція будівель, споруд та
+                                    інших будівельних Об’єктів, що здійснюються на різних етапах будівництва,
+                                    експлуатації або ремонту.
+                                </div>
+                                <button class="servis__item_btn">
+                                    Більше деталей<img src="styles/img/Arrow 4.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center ">
+                    <div class="items-right">
+                        <div class="col-12 col-lg-4">
+                            <div class="servis__item">
+                                <div class="servis__item_title">
+                                    Реконструкція та ремонт будівель
+                                </div>
+
+                                <div class="servis__item_text">
+                                    Наша Компанія може запропонувати вам комплексну
+                                    реконструкцію будь-якої будівлі або приміщення, незалежно від його початкового
+                                    функціонального призначення та рівня зношеності.
+                                </div>
+
+                                <button class="servis__item_btn">
+                                    Більше деталей<img src="styles/img/Arrow 4.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <div class="servis__img">
+                                <img src="styles/img/rekonstrukciya-zdaniy 1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center ">
+                    <div class="items-left">
+                        <div class="col-12 col-lg-8">
+                            <div class="servis__img">
+                                <img src="styles/img/servis4.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-2">
+                            <div class="servis__item">
+                                <div class="servis__item_title">
+                                    Сервіс у будівництві
+                                </div>
+
+                                <div class="servis__item_text">
+                                    Ми впроваджуємо нові сучасні стандарти сервісу,
+                                    комунікації та формування лояльності на будівельному ринку Києва та Київської
+                                    області, прагнемо зруйнувати стереотипи і показати будівництво нового покоління.
+                                </div>
+
+                                <button class="servis__item_btn">
+                                    Більше деталей<img src="styles/img/Arrow 4.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="about-us__img"></div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="about-us__items">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="about-us__item">
+                                    <h3 class="about-us__item_title">
+                                        КОМАНДА
+                                    </h3>
+
+                                    <p>
+                                        Сьогодні послуга влаштування пальових основ затребувана при
+                                        Сьогодні послуга влаштування пальових основ затребувана при
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="about-us__item">
+                                    <h3 class="about-us__item_title">
+                                        ДОСВІД
+                                    </h3>
+
+                                    <p>
+                                        Сьогодні послуга влаштування пальових основ затребувана при
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="about-us__item">
+                                    <h3 class="about-us__item_title">
+                                        НАДІЙНІСТЬ
+                                    </h3>
+
+                                    <p>
+                                        Сьогодні послуга влаштування пальових основ затребувана при
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="about-us__item">
+                                    <h3 class="about-us__item_title">
+                                        ІННОВАЦІЙНІСТЬ
+                                    </h3>
+
+                                    <p>
+                                        Сьогодні послуга влаштування пальових основ затребувана при
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="about-us__item">
+                                    <div class="line-about-us"></div>
+                                    <h3 class="about-us__item_title">
+                                        ПРАКТИЧНІСТЬ
+                                    </h3>
+                                    <p>
+                                        Сьогодні послуга влаштування пальових основ затребувана при
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="form__callback">
+                        <div class="form__callback_line"></div>
+                        <div class="form__callback_title">
+                            Ми раді будемо вам допомогти
+                        </div>
+
+                        <input id="name" type="text" placeholder="Ім’я">
+                        <input id="phone" type="text" placeholder="Номер телефону">
+                        <div class="form__callback_chbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">
+                                Я погоджуюсь з політикою конфіденційності
+                            </label>
+                        </div>
+                        <button id="send">
+                            Надіслати запит <img src="styles/img/Arrow 5.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="form-img">
+                        <div class="form__img_line"></div>
+                        <div class="form__img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <div class="footer__logo">
+                        <a href="#">
+                            <img src="styles/img/footer.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="footer__contact">
+                                <h3 class="footer__contact_title">
+                                    Телефон:
+                                </h3>
+
+                                <p>
+                                    +380 (093) 1122333
+                                </p>
+                            </div>
+
+                            <div class="footer__contact">
+                                <h3 class="footer__contact_title">
+                                    Адреса:
+                                </h3>
+
+                                <p>
+                                    вул. Зелена 149, м. Львів
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="footer__contact">
+                                <h3 class="footer__contact_title">
+                                    Email:
+                                </h3>
+
+                                <p>
+                                    info@gmail
+                                </p>
+                            </div>
+
+                            <div class="footer__contact">
+                                <h3 class="footer__contact_title">
+                                    Графік роботи:
+                                </h3>
+
+                                <p>
+                                    Понеділок-Пятниця
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="footer__menu">
+                        <ul class="footer__menu_nav">
+                            <li>
+                                <a href="#">
+                                    Контакти
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Проєкти
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Команда
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Про нас
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__form">
+                        <h3 class="footer__form_title">
+                            ЗАЛИШИТИ ЗАЯВКУ
+                        </h3>
+
+                        <input id="footer-phone" type="text" placeholder="Номер телефону">
+                        <button id="footer-btn">
+                            Подати заявку<img src="styles/img/Arrow 3.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/sliderHomeSection.js"></script>
+    <script src="js/burgerMenu.js"></script>
+</body>
+
+</html>
